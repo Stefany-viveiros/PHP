@@ -1,0 +1,4 @@
+<?php
+    $nota = 6;
+    echo $nota <= 6 ? 'Aprovado' : 'Reprovado';
+?>
