@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificação de time</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>PHP</title>
 </head>
-<body class= "bg-ligth">
-    <main class= "container">
-        <h2 class ="mt-3 mb-3">Digite o nome de um time</h2>
-        <form action="processa.php" method="post">
+<body>
+    <h1 style >Bem vindos</h1>
+    <br>
+    <a href="calc.php"> Ir para a página calc</a>
+    <br><br>
 
-            <article class= "mb-3">
-            <label for="time" class= "form-label">Nome do time:</label>
-            <input type="text" class= "form-control" id="time" name= "time" require/>
+    <a href="cal.php"> 
 
+    <?php echo "Olá PHP"?>
 
-            </article>
-        <button type= "submit" class= "btn btn-primary">Verificar</button>
-        </form>
+    <br><br>
 
-    </main>
+    <?php echo "Stefany" ?>
+    
+    <?php
+    $nome = "Stefany";
+    $idade = 26;
+    ?>
+
+    <h2>
+        <?php echo "Meu nome é ". $nome;?>
+    </h2>
+
+   <h3>
+        <?php echo "Minha idade é ".$idade;?>
+   </h3>
+
+   <hr>
+
+   <strong>
+        <?php 
+            $hora = new DateTime();
+            echo $hora->format('H:i:s');
+
+        ?>
+
+   </strong>
+    
 </body>
 </html>
