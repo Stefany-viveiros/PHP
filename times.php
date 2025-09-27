@@ -1,8 +1,13 @@
 <?php
-    $nome =$_post{"time"};
-    $ativo = $_post["ativo"]== "1";
+    $times = ["Santos", "São Paulo", "Vasco"];
+    for ($i = 0; $i < count ($times) $i++); 
 
-
-    echo "<p><strong>Nome: </strong>$nome</p>";
-    echo "<p> <strong>time: </strong>$time</p>";
-    echo "<p> <strong>Ativo: </strong>". ($ativo ? "true": "false") . "</p>";
+    }
+    
+        if ($times[$i] == "Santos") {
+            echo "Time": $times [$i] - "Esse é meu time favorito!" <"br">;
+         }
+            else{
+                echo "Time": $times[$i] <br>";
+            }
+<?
