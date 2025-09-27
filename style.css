@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    color: black;
+    background-color: aqua;
+}
+.h1 {
+    text-align: center;
+    color: black;
+    background-color: aqua;
+}
+
+container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    background-color: aqua;
+}
+
+
+
+.backGR {
+    background: red !important;
+}
+
+table {
+    width: 100%;
+    color: black;
+    background-color: aqua;
+}
+
+table tr td {
+    text-align: center;
+    color: black;
+    background-color: aqua
+}
+
+table th {
+    background: rgb(228, 225, 225);
+    height: 25px;
+}
+
+table tr:nth-child(even) {
+    background: rgb(7, 213, 240);
+    color: #fff;
+}
+
